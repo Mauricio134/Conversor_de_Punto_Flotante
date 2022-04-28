@@ -5,6 +5,9 @@
 
 using namespace std;
 
+/*No se ha podido encontrar alguna manera de obtener el valor de las variables float y double directamente de la RAM*/
+/*solo se pudo encontrar paginas que tratan de simular como se veria los puntos flotantes de los valores dados.*/
+/*LINK DE LA PAGINA DEL CONVERTIDOR A PUNTO FLOTANTE: https://www.zator.com/Cpp/E2_2_4a1.htm*/
 string quitar_uno_float(string number)
 {
     int tam = number.length();
